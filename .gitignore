@@ -1,0 +1,9 @@
+node_modules
+dist
+reports
+typings
+out
+typings
+.vscode/
+.idea/
+*.iml

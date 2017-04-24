@@ -1,0 +1,55 @@
+body {
+  margin-top: 5px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+admin-application {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+header {
+  padding: 0 20px 10px;
+  background-color: #3695f7;
+  color: #f0f0f0;
+}
+
+footer {
+  color: #909090;
+  text-align: center;
+}
+
+search-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background: #93c7f3;
+  padding: 5px;
+}
+
+.graph {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search_input {
+  min-width: 150px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 0 8px;
+}
+
+.back_link {
+  margin: 4px;
+}
