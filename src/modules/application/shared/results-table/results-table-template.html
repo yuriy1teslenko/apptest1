@@ -1,0 +1,9 @@
+<div ng-if="$ctrl.showTable">
+    <h3 ng-bind="$ctrl.tableName"></h3>
+    <div
+            class="grid"
+            ui-grid="$ctrl.gridOptions"
+            ui-grid-selection
+            >
+    </div>
+</div>
