@@ -5,7 +5,8 @@ Test application based on NodeJS and Angular
 
 ```sh
 npm i webpack typings typescript -g
-
+git clone git@github.com/yuriy1teslenko/apptest1.git
+cd apptest1
 npm install
 npm run build
 ```
