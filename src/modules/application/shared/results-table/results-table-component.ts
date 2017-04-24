@@ -22,7 +22,7 @@ class ResultsTableController {
     if (!this.gridOptions) {
       this.gridOptions = {};
     }
-    if (this.sectionData.length) {
+    if (this.sectionData && this.sectionData.length) {
       this.gridOptions.data = this.sectionData;
       this.showTable = true;
     }
@@ -37,7 +37,6 @@ class ResultsTableController {
     return {
       appScopeProvider: ctrl,
       enableRowHeaderSelection: false,
-      //rowHeight: 46,
       enableRowSelection: false,
       enableColumnResizing: true,
       enableHorizontalScrollbar: 0,
